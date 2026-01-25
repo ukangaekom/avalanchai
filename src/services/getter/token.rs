@@ -128,7 +128,7 @@ pub async fn get_token_details_testnet(token_address:&str) -> String {
             let totalsupply = erc20.totalSupply().call().await.unwrap();
 
             return format!(
-                " The Sei Testnet The token name is {:#?} with name 
+                " The Avalanche Testnet The token name is {:#?} with name 
                 {:#?} having a decimal of {:#?} and total supply of {:#?}",
                 symbol, name,decimal,totalsupply );
 
@@ -262,7 +262,7 @@ pub async fn get_token_balance_mainnet(token_address:&str, wallet_address: &str)
             }
             Err(_e) => {
                 return format!(
-                    "The token address {:#?} does not exist on sei network",token_addr
+                    "The token address {:#?} does not exist on Avalanche network",token_addr
                 );
             }
         }

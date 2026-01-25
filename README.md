@@ -1,4 +1,4 @@
-# Avax GPT 
+# Avalanchai GPT 
 
 
 
@@ -16,8 +16,8 @@
 
 
 ## Introduction
-AvaxGPT is an agentic api for getting real time crypto data on sei network.
-We are simply building the next performance ready AI infrastructure on Avax used every way, anyway and at any time. Users can now access any realtime data on Sei at their convenient zone and platforms thanks to our agentic api. 
+AvaxGPT is an agentic api for getting real time crypto data on avalanche blockchain network.
+We are simply building the next performance ready AI infrastructure on Avax used every way, anyway and at any time. Users can now access any realtime data on Avalanche at their convenient zone and platforms thanks to our agentic api. 
 
 
 ## About
@@ -27,7 +27,7 @@ We are simply building the next performance ready AI infrastructure on Avax used
 <p align="center">
   <img src="https://github.com/ukangaekom/orcinus/blob/main/public/SOA.jpg" alt="Agent Image" width="800" style="max-width: 100%;">
 </p>
-The Archictecutral diagram describe the process of data flow of data from request to response in Sei Orcinus. The following are the meaning of the abbreviations in the architecture.
+The Archictecutral diagram describe the process of data flow of data from request to response in Avalanche Orcinus. The following are the meaning of the abbreviations in the architecture.
 
 ```
 1. PA - Processing Agent
@@ -67,13 +67,13 @@ structure in the `src` file.
 
 ## Usecase
 1. ### Explorers🌐🔍: 
-  AvaxGPT can be integrated into blockchain explorers on sei blockchain and other blockchain associated with to give users a comprehensive onchain data report of a **wallet address**, **token addresss**, **nft address**, **contract address** or any address on sei blockahin *mainnet or testnet*. A user don't need to waste time🤷 trying to use the explorer interface. Just tell the agent what you want concerning an address and you get a comprehensive reponse.
+  AvaxGPT can be integrated into blockchain explorers on Avalanche blockchain and other blockchain associated with to give users a comprehensive onchain data report of a **wallet address**, **token addresss**, **nft address**, **contract address** or any address on Avalanche blockahin *mainnet or testnet*. A user don't need to waste time🤷 trying to use the explorer interface. Just tell the agent what you want concerning an address and you get a comprehensive reponse.
   
 **Bonus:**
-> *While your blockchain explorers provide a traditional explorer data experience for one address at a time, sei orcinus agent can provide a summary report of data for multiple address at one chat. We made user experience better across sei ecosystem through our api😎.*
+> *While your blockchain explorers provide a traditional explorer data experience for one address at a time, avax agent can provide a summary report of data for multiple address at one chat. We made user experience better across Avalanche ecosystem through our api😎.*
 
 2. ### Education👨‍🎓👩‍🎓:
-  Sei AvaxGPT can also be used as an educational tool. Imagine having a social media bot e.g twitter, discord, whatsapp, telegram or a web bot in the sei explorer. Using sei orcinus api automatically turns your bot to an agent able to educate your users on sei ecosystem.
+  Avalanche AvaxGPT can also be used as an educational tool. Imagine having a social media bot e.g twitter, discord, whatsapp, telegram or a web bot in the Avalanche explorer. Using Avalanche orcinus api automatically turns your bot to an agent able to educate your users on Avalanche ecosystem.
 
 3. ### Market Analytics📈:
   AvaxGPT can also be used for realtime market data analytical report. 
@@ -83,13 +83,13 @@ structure in the `src` file.
   AvaxGPT enables you to get comprehensive market data report for multiple tokens at once 🎉.
 
 **Productivity Hack Tips:**
->*As a user, I will definitely make sei orcinus my daily sidekid for anything on sei ecosystem knowing I have everything I need to be productive in one api endpoint which I can integrate to any of my favourite workspace, social media platform or dashboard platform🤔*
+>*As a user, I will definitely make Avalanche orcinus my daily sidekid for anything on Avalanche ecosystem knowing I have everything I need to be productive in one api endpoint which I can integrate to any of my favourite workspace, social media platform or dashboard platform🤔*
 
 4. ### Onchain data Fetching:
-AvaxGPT api operates onchain and off-chain. Apart from fetching off-chain market data, You can use Sei orcinus to get onchain information of wallets, smart contracts, NFTs and NFT tokens.
+AvaxGPT api operates onchain and off-chain. Apart from fetching off-chain market data, You can use Avalanche orcinus to get onchain information of wallets, smart contracts, NFTs and NFT tokens.
 
 **Experience:**
->*Users don't have to follow a structural prompt or technique to index data. Just express yourself and Sei Orcinus knows what to do!*
+>*Users don't have to follow a structural prompt or technique to index data. Just express yourself and Avalanche Orcinus knows what to do!*
 
 
 
@@ -116,7 +116,7 @@ To run AvaxGPT locally, simply clone the git repo, set your gemini api key and a
 
 1. Clone git repo
 ```sh
-  git clone https://github.com/ukangaekom/Avax_gpt.git
+  git clone https://github.com/ukangaekom/avalanchai.git
 ```
 2. Create a .env file in the root directory and add the following api keys.
 
@@ -137,7 +137,7 @@ To run AvaxGPT locally, simply clone the git repo, set your gemini api key and a
 ```
 
 5. Open you postman and follow the test format.
-Go to you local postman use the endpoint `http://localhost:8080/sei_orcinus_agent` and use a `post` request method.
+Go to you local postman use the endpoint `http://localhost:8080/avax_gpt_agent` and use a `post` request method.
 
 **Note:** Use the json body type to send the request as the body type is strict.
 ```
@@ -153,7 +153,7 @@ Kindly send the request and get a response.
 
 ## Accessibility
 
-Regarding Sei Orcinus Api accessibility, The api has been officially launched. You can message Ekomabasi Ukanga on [X](https://x.com/EkomUkanga) or [Telegram](https://t.me/Ekomart).
+Regarding avlanchai Api accessibility, The api has been officially launched. You can message Ekomabasi Ukanga on [X](https://x.com/EkomUkanga) or [Telegram](https://t.me/Ekomart).
 
 ## Team
 

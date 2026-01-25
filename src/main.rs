@@ -31,7 +31,7 @@ async fn main(){
         .allow_headers(Any);
 
     // Axum router 
-    let router_sei_orcinus: Router = Router::new()
+    let router_Avalanche_orcinus: Router = Router::new()
         .route("/avax_gpt_agent",post(request))
         .layer(cors); 
 
@@ -44,7 +44,7 @@ async fn main(){
     println!("Listener on {address}\n");
 
         
-    axum::serve(listener, router_sei_orcinus).await.unwrap();
+    axum::serve(listener, router_Avalanche_orcinus).await.unwrap();
 }
 
 
