@@ -253,8 +253,121 @@ $GLOBAL_CRYPTOCURRENCY_DATAAvax = ```SEARCH FOR ALL THE CRYPTO CURRENCIES WE HAV
 
 ++++++++++++++++++++++++++++++++++++++++ PRICE RELATED CONTEXT BEGINS ++++++++++++++++++++++++++++++++++++++++++
 
+===================================== PROTOCOL KNOWLEDGE BASE ON AVALANCHE BEGINS ===================================
+
+++++++++++++++++++++++++++++++++++++AAVE PROTOCOL+++++++++++++++++++++++++++++++++++++++++
+
+CONTRACTS AND ADDRESS
+{  "aave_v3":{
+    "Pool":"0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+    "WrappedTokenGateway":"0x2825cE5921538d17cc15Ae00a8B24fF759C6CDaE",
+    "PoolAddressesProvider":"0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb",
+    "PoolConfiguration":"0x8145eddDf43f50276641b55bd3AD95944510021E",
+    "UiPoolDataProvider":"0x3518E8927A7827CDdAf841872453003CA95906A3",
+    "UiIncentiveDataProvider":"0x99732D5dA21f44f9e45e36eF9da4B1df2Eb0b28E",
+    "ACLManager":"0xa72636CbcAa8F5FF95B2cc47F3CDEe83F3294a0B",
+    "WalletBalanceProvider":"0xBc790382B3686abffE4be14A030A96aC6154023a",
+    "TreasuryCollector":"0x5ba7fd868c40c16f7aDfAe6CF87121E13FC2F7a0",
+    "AaveProtocolDataProvider":"0x243Aa95cAC2a25651eda86e80bEe66114413c43b",
+    "RiskSteward":"0x23AceD103f5E22bD22B9272c82f29C0E51abC5c2",
+    "DefaultIncentivesController":"0x929EC64c34a17401F460460D4B9390518E5B473e",
+    "IncentivesEmissionManager":"0x048f2228D7Bf6776f99aB50cB1b1eaB4D1d4cA73",
+    "PoolAddressesProviderRegistry":"0x770ef9f4fe897e59daCc474EF11238303F9552b6",
+    "AaveOracle":"0xEBd36016B3eD09D4693Ed4251c67Bd858c3c7C9C",
+    "RepayWithCollateral":"0x5d4D4007A4c6336550DdAa2a7c0d5e7972eebd16",
+    "CollateralSwitch":"0x2Cf641F7C0eac2788A7924B82d6Ca8EB7bAa4E3A",
+    "DebtSwitch":"0xE28E2c8d240dd5eBd0adcab86fbD79df7a052034",
+    "WithdrawSwitchAdapter":"0x78F8Bd884C3D738B74B420540659c82f392820e0",
+    "ACLAdmin":"0x3C06dce358add17aAf230f2234bCCC4afd50d090",},
 
 
+  "aave_v2":{
+
+  }
+}
+
+
+CONTRACTS & MEANINGS
+
+{  "aave_v3":{
+    "Pool":{
+      "meaning":"This contract is the main user-facing contract. Most user interactions with the Aave Protocol occur via the Pool contract.",
+      },
+
+    "WrappedTokenGateway":{
+      "meaning":"The Aave Protocol operates exclusively with ERC-20 reserve tokens. To accommodate network gas tokens, the WrappedTokenGateway (previously called WETHGateway) is a helper contract that enables gas tokens (ETH, POL, etc.) to be wrapped or unwrapped to perform Aave Pool methods: Supply Borrow Repay Withdraw",
+      "functions":{
+        "aave_wrapped_token_get_wrappedethaddress_token":"It is use in getting wrapped eth contract address on wrapped token gateway",
+        "aave_wrapped_token_get_weth_address":"It is used in getting wrapped eth token address on wrapped token gateway",
+        "aave_wrapped_token_get_pool_address":"It is using in getting the pool address on wrapped token gateway",
+        "aave_wrapped_token_get_owner":"It is used in getting the owner of the contract in wrapped token gateway"
+
+        }
+      },
+
+    "PoolAddressesProvider":{"meaning":"The PoolAddressesProvider contract is the main registry of addresses that are part of, or connected to the Protocol, including permissioned roles. It acts as a factory of proxies and is the admin of those, and therefore has the right to change its implementations."},
+
+    "PoolConfiguration":{"meaning":"The PoolConfigurator contract implements the configuration methods for the Aave Protocol. The 'write methods' below are grouped by permissioned system roles that are managed by ACLManager."},
+
+    "UiPoolDataProvider":{""},
+    "UiIncentiveDataProvider":{""},
+    "ACLManager":{""},
+    "WalletBalanceProvider":"",
+    "TreasuryCollector":"",
+    "AaveProtocolDataProvider":"",
+    "RiskSteward":"",
+    "DefaultIncentivesController":"",
+    "IncentivesEmissionManager":"",
+    "PoolAddressesProviderRegistry":"",
+    "AaveOracle":"",
+    "RepayWithCollateral":"",
+    "CollateralSwitch":"",
+    "DebtSwitch":"",
+    "WithdrawSwitchAdapter":"0",
+    "ACLAdmin":"",},
+
+
+  "aave_v2":{
+
+  }
+}
+
+<LOGIC>
+For every contract activity related to a particular contract on aave protocol, you are to substitute the address for the contract while calling 
+the function from related to the contract.
+
+e.g 
+User: which address is the woner of the aave token gateway?
+You: [<CONTRACT FUNCTION>, <CONTRACT ADDRESS>]
+
+<LOGIC/>
+
+<THINK>
+EXAMPLES:
+User: which address is the owner of aave token gateway?
+You: [aave_wrapped_token_get_owner, 0x2825cE5921538d17cc15Ae00a8B24fF759C6CDaE]
+
+User: What is the pool address for aave token gateway?
+You: [aave_wrapped_token_get_pool_address, 0x2825cE5921538d17cc15Ae00a8B24fF759C6CDaE]
+
+<THINK/>
+
++++++++++++++++++++++++++++++++++++++AAVE PROTOCOL ++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+====================================== PROTOCOL KNOWLEDGE BASE ON AVALANCHE ENDS ==========================================
+
+
+
+
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ===================================== PRICE TOOLS BEGIN ====================================================
 {
