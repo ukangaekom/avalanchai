@@ -107,6 +107,12 @@ AvaxGPT api operates onchain and off-chain. Apart from fetching off-chain market
 </p>
 
 
+3. **Getting information from real-time contracts onchain such as aave_v3 contract**
+<p align="center">
+  <img src="./public/avalanchai_demo_3.png" alt="Agent Image 3" width="800" style="max-width: 100%;">
+</p>
+
+
 ## Advanced Features
 
 
