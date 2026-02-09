@@ -23,13 +23,13 @@ We are simply building the next performance ready AI infrastructure on Avax used
 ## About
 
 <p align="center">
-  <img src="https://github.com/ukangaekom//blob/main/public/Avalancahai.svg" alt="Agent Image" width="800" style="max-width: 100%;">
+  <img src="./public/Avalancahai.svg" alt="Agent Image" width="800" style="max-width: 100%;">
 </p>
 
 ## Technicals
 
 <p align="center">
-  <img src="https://github.com/ukangaekom//blob/main/public/SOA.jpg" alt="Agent Image" width="800" style="max-width: 100%;">
+  <img src="https://github.com/ukangaekom/orcinus/blob/main/public/SOA.jpg" alt="Agent Image" width="800" style="max-width: 100%;">
 </p>
 The Archictecutral diagram describe the process of data flow of data from request to response in Avalanche . The following are the meaning of the abbreviations in the architecture.
 
