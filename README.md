@@ -23,7 +23,7 @@ We are simply building the next performance ready AI infrastructure on Avax used
 ## About
 
 <p align="center">
-  <img src="./public/Avalancahai.svg" alt="Agent Image" width="800" style="max-width: 100%;">
+  <img src="./public/avalanchai_final.svg" alt="Agent Image" width="800" style="max-width: 100%;">
 </p>
 
 ## Technicals
