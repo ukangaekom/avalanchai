@@ -153,6 +153,22 @@ pub async fn aave_wrapped_token_get_owner(gateway_address: &str) -> String{
 
 
 // Aave Oracle
+sol!(
+
+    #[sol(rpc)]
+    contract aave_oracle {
+   
+        // VIEW FUNCTIONS
+        function ADDRESSES_PROVIDER() external view returns (address);
+        function BASE_CURRENCY() external view returns (address);
+        function BASE_CURRENCY_UNIT() external view returns (uint256);
+        function getAssetPrice(address asset) external view returns (uint256);
+        function getAssetsPrices(address[] calldata assets) external view returns (uint256[] memory);
+        function getSourceOfAsset(address asset) external view returns (address);
+        function getFallbackOracle() external view returns (address);
+    }
+);
+
 
 
 
